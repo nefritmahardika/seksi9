@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto;
+    font-family: 'Montserrat';
+}
+.header {
+    position: relative;
+    background-color: rgb(17, 17, 17);
+    z-index: -99;
+}
+.header img{
+    opacity: 0.3;
+    width: 100%;
+    height: 660px;
+    object-fit: cover;
+}
+.title{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+}
+.title img{
+    width: 130px;
+    padding: 50px;
+}
+.title p{
+    width: 45%;
+    margin: auto;
+}
+.title h1{
+ margin-bottom: 40px;
+}
+.sertijab {
+    margin-top: 60px;
+    text-align: center;
+}
+.sertijab p{
+    width: 60%;
+    margin: auto;
+}
+
+
+.fotosertijab img{
+    margin: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 30px;
+    background-color: #fff;
+    width: 300px;
+    border-radius: 20px;
+}
+.ucapan{
+    text-align: center;
+    margin-top: 100px;
+}
+.bro9{
+    display: flex;
+    justify-content: space-around;
+}
+.sie9{
+    width: 500px;
+    height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    margin-top: 40px;
+text-align: center;
+    background-color: #fff;
+}
+.sie9 img{
+    width: 200px;
+    height: 200px;
+    padding:20px;
+    border-radius: 50%;
+}
+.sie9 h1{
+    margin-bottom: 20px;
+}
+.sie9 p{
+    font-size: 15px;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+}
